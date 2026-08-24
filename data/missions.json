@@ -1,0 +1,83 @@
+[
+  {
+    "day": 1,
+    "title": "Robot loop basics",
+    "skill": "Robotics fundamentals",
+    "concept": "A robot senses, estimates, decides, acts, then measures the result.",
+    "lab": "Run the simulator for one minute and write what each dashboard metric means.",
+    "proof": "Add one screenshot or one paragraph explaining the robot loop."
+  },
+  {
+    "day": 2,
+    "title": "Coordinate frames",
+    "skill": "Math for robotics",
+    "concept": "Robot position is easier to reason about when x, y, and heading are explicit.",
+    "lab": "Change the starting pose and predict which direction the robot will move first.",
+    "proof": "Record the starting pose and whether your prediction was right."
+  },
+  {
+    "day": 3,
+    "title": "PID tuning",
+    "skill": "Controls",
+    "concept": "Proportional gain can reduce error quickly, but too much can cause oscillation.",
+    "lab": "Try low, medium, and high P gains. Compare overshoot and settling behavior.",
+    "proof": "Write the best gain values you found and why."
+  },
+  {
+    "day": 4,
+    "title": "Noisy sensors",
+    "skill": "Sensor processing",
+    "concept": "Sensors return measurements, not truth.",
+    "lab": "Increase range noise and explain how it changes confidence.",
+    "proof": "Save a note comparing low-noise and high-noise runs."
+  },
+  {
+    "day": 5,
+    "title": "Waypoint planning",
+    "skill": "Motion planning",
+    "concept": "A planner breaks a goal into smaller reachable targets.",
+    "lab": "Add or move a waypoint in code and observe how the controller reacts.",
+    "proof": "Document the waypoint list and the final path shape."
+  },
+  {
+    "day": 6,
+    "title": "Robot state logs",
+    "skill": "Debugging and data",
+    "concept": "Logs turn vague robot behavior into evidence.",
+    "lab": "Use the simulator metrics to explain one failure or inefficiency.",
+    "proof": "Write one bug-style note with expected behavior, actual behavior, and a guess."
+  },
+  {
+    "day": 7,
+    "title": "ROS2 mental model",
+    "skill": "ROS2 architecture",
+    "concept": "ROS2 systems are often organized as nodes that publish and subscribe to topics.",
+    "lab": "Map simulator pieces to possible nodes: controller, sensor, planner, dashboard.",
+    "proof": "Create a small node-topic-message table in the daily log."
+  },
+  {
+    "day": 8,
+    "title": "Testing robot math",
+    "skill": "Software testing",
+    "concept": "Pure math helpers are easier to test than UI behavior.",
+    "lab": "Read `src/robotics.test.ts` and add one new edge-case test.",
+    "proof": "Commit the test and note what bug it would catch."
+  },
+  {
+    "day": 9,
+    "title": "Obstacle thinking",
+    "skill": "Autonomy",
+    "concept": "Robots must handle the world they did not ask for.",
+    "lab": "Add a new obstacle and describe how the current robot fails around it.",
+    "proof": "Write a short failure analysis."
+  },
+  {
+    "day": 10,
+    "title": "Internship story",
+    "skill": "Technical communication",
+    "concept": "A strong portfolio connects code choices to robotics outcomes.",
+    "lab": "Write a README paragraph beginning with: I built this to learn...",
+    "proof": "Update the README with one measurable result."
+  }
+]
+

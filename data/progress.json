@@ -1,0 +1,12 @@
+{
+  "currentMissionIndex": 1,
+  "lastGeneratedAt": "2026-08-24T14:53:25.758Z",
+  "history": [
+    {
+      "date": "2026-08-24",
+      "missionDay": 1,
+      "title": "Robot loop basics",
+      "skill": "Robotics fundamentals"
+    }
+  ]
+}
