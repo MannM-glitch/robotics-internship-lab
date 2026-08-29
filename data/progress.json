@@ -1,6 +1,6 @@
 {
-  "currentMissionIndex": 5,
-  "lastGeneratedAt": "2026-08-28T23:04:01.657Z",
+  "currentMissionIndex": 6,
+  "lastGeneratedAt": "2026-08-29T17:10:59.341Z",
   "history": [
     {
       "date": "2026-08-24",
@@ -31,6 +31,12 @@
       "missionDay": 5,
       "title": "Waypoint planning",
       "skill": "Motion planning"
+    },
+    {
+      "date": "2026-08-29",
+      "missionDay": 6,
+      "title": "Robot state logs",
+      "skill": "Debugging and data"
     }
   ]
 }
